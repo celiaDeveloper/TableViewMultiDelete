@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270C04191C45305D0072596F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 270C04181C45305D0072596F /* main.m */; };
+		270C041C1C45305D0072596F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 270C041B1C45305D0072596F /* AppDelegate.m */; };
+		270C041F1C45305D0072596F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 270C041E1C45305D0072596F /* ViewController.m */; };
+		270C04221C45305D0072596F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270C04201C45305D0072596F /* Main.storyboard */; };
+		270C04241C45305D0072596F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270C04231C45305D0072596F /* Assets.xcassets */; };
+		270C04271C45305D0072596F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270C04251C45305D0072596F /* LaunchScreen.storyboard */; };
+		270C04321C45305D0072596F /* MultiDeleteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 270C04311C45305D0072596F /* MultiDeleteTests.m */; };
+		270C043D1C45305D0072596F /* MultiDeleteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 270C043C1C45305D0072596F /* MultiDeleteUITests.m */; };
+		270C044B1C45D8FD0072596F /* album_delete_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 270C044A1C45D8FD0072596F /* album_delete_pressed@2x.png */; };
+		270C044D1C45D92E0072596F /* album_delete_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 270C044C1C45D92E0072596F /* album_delete_normal@2x.png */; };
+		270C04501C45E8240072596F /* main_safegurd_check_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 270C044E1C45E8240072596F /* main_safegurd_check_checked.png */; };
+		270C04511C45E8240072596F /* main_safegurd_check_uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 270C044F1C45E8240072596F /* main_safegurd_check_uncheck.png */; };
+		270C04541C4613AE0072596F /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 270C04531C4613AE0072596F /* CustomCell.m */; };
+		270C04561C4627C30072596F /* 返回.png in Resources */ = {isa = PBXBuildFile; fileRef = 270C04551C4627C30072596F /* 返回.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		270C042E1C45305D0072596F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 270C040C1C45305D0072596F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 270C04131C45305D0072596F;
+			remoteInfo = MultiDelete;
+		};
+		270C04391C45305D0072596F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 270C040C1C45305D0072596F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 270C04131C45305D0072596F;
+			remoteInfo = MultiDelete;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		270C04141C45305D0072596F /* MultiDelete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiDelete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		270C04181C45305D0072596F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		270C041A1C45305D0072596F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		270C041B1C45305D0072596F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		270C041D1C45305D0072596F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		270C041E1C45305D0072596F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		270C04211C45305D0072596F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		270C04231C45305D0072596F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		270C04261C45305D0072596F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		270C04281C45305D0072596F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270C042D1C45305D0072596F /* MultiDeleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiDeleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		270C04311C45305D0072596F /* MultiDeleteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiDeleteTests.m; sourceTree = "<group>"; };
+		270C04331C45305D0072596F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270C04381C45305D0072596F /* MultiDeleteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiDeleteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		270C043C1C45305D0072596F /* MultiDeleteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiDeleteUITests.m; sourceTree = "<group>"; };
+		270C043E1C45305D0072596F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270C044A1C45D8FD0072596F /* album_delete_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "album_delete_pressed@2x.png"; sourceTree = "<group>"; };
+		270C044C1C45D92E0072596F /* album_delete_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "album_delete_normal@2x.png"; sourceTree = "<group>"; };
+		270C044E1C45E8240072596F /* main_safegurd_check_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_safegurd_check_checked.png; sourceTree = "<group>"; };
+		270C044F1C45E8240072596F /* main_safegurd_check_uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_safegurd_check_uncheck.png; sourceTree = "<group>"; };
+		270C04521C4613AE0072596F /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		270C04531C4613AE0072596F /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		270C04551C4627C30072596F /* 返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		270C04111C45305D0072596F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270C042A1C45305D0072596F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270C04351C45305D0072596F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270C040B1C45305D0072596F = {
+			isa = PBXGroup;
+			children = (
+				270C04161C45305D0072596F /* MultiDelete */,
+				270C04301C45305D0072596F /* MultiDeleteTests */,
+				270C043B1C45305D0072596F /* MultiDeleteUITests */,
+				270C04151C45305D0072596F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		270C04151C45305D0072596F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				270C04141C45305D0072596F /* MultiDelete.app */,
+				270C042D1C45305D0072596F /* MultiDeleteTests.xctest */,
+				270C04381C45305D0072596F /* MultiDeleteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		270C04161C45305D0072596F /* MultiDelete */ = {
+			isa = PBXGroup;
+			children = (
+				270C044C1C45D92E0072596F /* album_delete_normal@2x.png */,
+				270C044A1C45D8FD0072596F /* album_delete_pressed@2x.png */,
+				270C044E1C45E8240072596F /* main_safegurd_check_checked.png */,
+				270C044F1C45E8240072596F /* main_safegurd_check_uncheck.png */,
+				270C04551C4627C30072596F /* 返回.png */,
+				270C041A1C45305D0072596F /* AppDelegate.h */,
+				270C041B1C45305D0072596F /* AppDelegate.m */,
+				270C041D1C45305D0072596F /* ViewController.h */,
+				270C041E1C45305D0072596F /* ViewController.m */,
+				270C04521C4613AE0072596F /* CustomCell.h */,
+				270C04531C4613AE0072596F /* CustomCell.m */,
+				270C04201C45305D0072596F /* Main.storyboard */,
+				270C04231C45305D0072596F /* Assets.xcassets */,
+				270C04251C45305D0072596F /* LaunchScreen.storyboard */,
+				270C04281C45305D0072596F /* Info.plist */,
+				270C04171C45305D0072596F /* Supporting Files */,
+			);
+			path = MultiDelete;
+			sourceTree = "<group>";
+		};
+		270C04171C45305D0072596F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				270C04181C45305D0072596F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		270C04301C45305D0072596F /* MultiDeleteTests */ = {
+			isa = PBXGroup;
+			children = (
+				270C04311C45305D0072596F /* MultiDeleteTests.m */,
+				270C04331C45305D0072596F /* Info.plist */,
+			);
+			path = MultiDeleteTests;
+			sourceTree = "<group>";
+		};
+		270C043B1C45305D0072596F /* MultiDeleteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				270C043C1C45305D0072596F /* MultiDeleteUITests.m */,
+				270C043E1C45305D0072596F /* Info.plist */,
+			);
+			path = MultiDeleteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		270C04131C45305D0072596F /* MultiDelete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270C04411C45305D0072596F /* Build configuration list for PBXNativeTarget "MultiDelete" */;
+			buildPhases = (
+				270C04101C45305D0072596F /* Sources */,
+				270C04111C45305D0072596F /* Frameworks */,
+				270C04121C45305D0072596F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiDelete;
+			productName = MultiDelete;
+			productReference = 270C04141C45305D0072596F /* MultiDelete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		270C042C1C45305D0072596F /* MultiDeleteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270C04441C45305D0072596F /* Build configuration list for PBXNativeTarget "MultiDeleteTests" */;
+			buildPhases = (
+				270C04291C45305D0072596F /* Sources */,
+				270C042A1C45305D0072596F /* Frameworks */,
+				270C042B1C45305D0072596F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				270C042F1C45305D0072596F /* PBXTargetDependency */,
+			);
+			name = MultiDeleteTests;
+			productName = MultiDeleteTests;
+			productReference = 270C042D1C45305D0072596F /* MultiDeleteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		270C04371C45305D0072596F /* MultiDeleteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270C04471C45305D0072596F /* Build configuration list for PBXNativeTarget "MultiDeleteUITests" */;
+			buildPhases = (
+				270C04341C45305D0072596F /* Sources */,
+				270C04351C45305D0072596F /* Frameworks */,
+				270C04361C45305D0072596F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				270C043A1C45305D0072596F /* PBXTargetDependency */,
+			);
+			name = MultiDeleteUITests;
+			productName = MultiDeleteUITests;
+			productReference = 270C04381C45305D0072596F /* MultiDeleteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		270C040C1C45305D0072596F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wulian;
+				TargetAttributes = {
+					270C04131C45305D0072596F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					270C042C1C45305D0072596F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 270C04131C45305D0072596F;
+					};
+					270C04371C45305D0072596F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 270C04131C45305D0072596F;
+					};
+				};
+			};
+			buildConfigurationList = 270C040F1C45305D0072596F /* Build configuration list for PBXProject "MultiDelete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 270C040B1C45305D0072596F;
+			productRefGroup = 270C04151C45305D0072596F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				270C04131C45305D0072596F /* MultiDelete */,
+				270C042C1C45305D0072596F /* MultiDeleteTests */,
+				270C04371C45305D0072596F /* MultiDeleteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		270C04121C45305D0072596F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270C044B1C45D8FD0072596F /* album_delete_pressed@2x.png in Resources */,
+				270C04271C45305D0072596F /* LaunchScreen.storyboard in Resources */,
+				270C04241C45305D0072596F /* Assets.xcassets in Resources */,
+				270C04561C4627C30072596F /* 返回.png in Resources */,
+				270C04221C45305D0072596F /* Main.storyboard in Resources */,
+				270C04501C45E8240072596F /* main_safegurd_check_checked.png in Resources */,
+				270C04511C45E8240072596F /* main_safegurd_check_uncheck.png in Resources */,
+				270C044D1C45D92E0072596F /* album_delete_normal@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270C042B1C45305D0072596F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270C04361C45305D0072596F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		270C04101C45305D0072596F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270C041F1C45305D0072596F /* ViewController.m in Sources */,
+				270C041C1C45305D0072596F /* AppDelegate.m in Sources */,
+				270C04541C4613AE0072596F /* CustomCell.m in Sources */,
+				270C04191C45305D0072596F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270C04291C45305D0072596F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270C04321C45305D0072596F /* MultiDeleteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270C04341C45305D0072596F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270C043D1C45305D0072596F /* MultiDeleteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		270C042F1C45305D0072596F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 270C04131C45305D0072596F /* MultiDelete */;
+			targetProxy = 270C042E1C45305D0072596F /* PBXContainerItemProxy */;
+		};
+		270C043A1C45305D0072596F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 270C04131C45305D0072596F /* MultiDelete */;
+			targetProxy = 270C04391C45305D0072596F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		270C04201C45305D0072596F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270C04211C45305D0072596F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		270C04251C45305D0072596F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270C04261C45305D0072596F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		270C043F1C45305D0072596F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		270C04401C45305D0072596F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		270C04421C45305D0072596F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiDelete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xudandan.MultiDelete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		270C04431C45305D0072596F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiDelete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xudandan.MultiDelete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		270C04451C45305D0072596F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiDeleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xudandan.MultiDeleteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiDelete.app/MultiDelete";
+			};
+			name = Debug;
+		};
+		270C04461C45305D0072596F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiDeleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xudandan.MultiDeleteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiDelete.app/MultiDelete";
+			};
+			name = Release;
+		};
+		270C04481C45305D0072596F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultiDeleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xudandan.MultiDeleteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiDelete;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		270C04491C45305D0072596F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultiDeleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xudandan.MultiDeleteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiDelete;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		270C040F1C45305D0072596F /* Build configuration list for PBXProject "MultiDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270C043F1C45305D0072596F /* Debug */,
+				270C04401C45305D0072596F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		270C04411C45305D0072596F /* Build configuration list for PBXNativeTarget "MultiDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270C04421C45305D0072596F /* Debug */,
+				270C04431C45305D0072596F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		270C04441C45305D0072596F /* Build configuration list for PBXNativeTarget "MultiDeleteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270C04451C45305D0072596F /* Debug */,
+				270C04461C45305D0072596F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		270C04471C45305D0072596F /* Build configuration list for PBXNativeTarget "MultiDeleteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270C04481C45305D0072596F /* Debug */,
+				270C04491C45305D0072596F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 270C040C1C45305D0072596F /* Project object */;
+}
